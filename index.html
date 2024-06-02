@@ -10,6 +10,20 @@ var canvas = document.getElementById('meuCanvas');
 var cornerRadius = 5;
 if (canvas.getContext){
 var cntxt = canvas.getContext('2d');
+cntxt.moveTo(170, 40);
+cntxt.lineTo(190, 90);
+cntxt.lineTo(240, 90);
+cntxt.lineTo(200, 130);
+cntxt.lineTo(220, 180);
+cntxt.lineTo(170, 150);
+cntxt.lineTo(120, 180);
+cntxt.lineTo(140, 130);
+cntxt.lineTo(100, 90);
+cntxt.lineTo(150, 90);
+cntxt.closePath();
+cntxt.closePath();
+cntxt.stroke();
+
 cntxt.moveTo(170, 70);
 cntxt.lineTo(182, 102);
 cntxt.lineTo(210, 102);
@@ -22,6 +36,21 @@ cntxt.lineTo(125, 102);
 cntxt.lineTo(158, 102);
 cntxt.closePath();
 cntxt.stroke();
+
+cntxt.beginPath();
+cntxt.moveTo(170, 90);
+cntxt.lineTo(176, 106);
+cntxt.lineTo(190, 106);
+cntxt.lineTo(179, 118);
+cntxt.lineTo(187, 135);
+cntxt.lineTo(170, 125);
+cntxt.lineTo(153, 135);
+cntxt.lineTo(161, 118);
+cntxt.lineTo(150, 106);
+cntxt.lineTo(164, 106);
+cntxt.closePath();
+cntxt.stroke();
+
 }
 }
 </script>
